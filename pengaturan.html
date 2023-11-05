@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MINDA</title>
+
+    <link rel="icon" href="images/minda.png">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <div class="logo">
+                <img src="images/minda.png">
+            </div>
+            <h2>MINDA</h2>
+            <div class="search-bar">
+                <i class="uil uil-search"></i>
+                <input type="search" placeholder="Pencarian untuk trending, inspirasi, dan proyek">
+            </div>
+            <div class="create">
+                <label class="btn btn-primary" for="create-post">Buat</label>
+                <div class="profile-photo">
+                    <img src="images/profile-1.jpeg">
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!------------------------- MAIN -------------------------->
+    <main>
+        <div class="container">
+            <!--======================== BAGIAN KIRI ==========================-->
+            <div class="left">
+                <a class="profile">
+                    <div class="profile-photo">
+                        <img src="images/profile-1.jpeg">
+                    </div>
+                    <div class="handle">
+                        <h4>Istnain Faiz Alfajri</h4>
+                        <p class="text-muted">
+                            @IFA02
+                        </p>
+                    </div>
+                </a>
+
+                <!-------------------- SIDEBAR ------------------------->
+                <div class="sidebar">
+                    <a href="beranda.html" class="menu-item active">
+                        <span><i class="uil uil-home"></i></span>
+                        <h3>Beranda</h3>
+                    </a>
+                    <a href="jelajah.html" class="menu-item">
+                        <span><i class="uil uil-compass"></i></span>
+                        <h3>Jelajah</h3>
+                    </a>
+                    <a href="pemberitahuan.html" class="menu-item" id="notifications">
+                        <span><i class="uil uil-bell"><small class="notification-count">100+</small></i></span>
+                        <h3>Pemberitahuan</h3>
+                    </a>
+                    </a>
+                    <a href="pesan.html" class="menu-item" id="messages-notification">
+                        <span><i class="uil uil-envelope-alt"><small class="notification-count">4</small></i></span>
+                        <h3>Pesan</h3>
+                    </a>
+                    <a href="pengaturan.html" class="menu-item">
+                        <span><i class="uil uil-setting"></i></span>
+                        <h3>Pengaturan</h3>
+                    </a>
+                </div>
+                <!------------------- SIDEBAR -------------------->
+            </div>
+            <!------------------- BAGIAN KIRI -------------------->
+
+
+
+            <!--======================== BAGIAN TENGAH ==========================-->
+            <div class="middle">
+                <!------------------- ADD POSTING -------------------->
+                <form class="add-posting">
+                    <div class="profile-photo">
+                        <img src="./images/profile-1.jpeg">
+                    </div>
+                    <input type="text" placeholder="Bagaimana harimu, Istnain?" id="add-posting">
+                    <input type="submit" value="Kirim" class="btn btn-primary">
+                </form>
+
+                <!------------------- FEEDS --------------------->
+                <div class="feeds">
+                    <!------------------- FEED 1 --------------------->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="./images/profile-4.jpg">
+                                </div>
+                                <div class="ingo">
+                                    <h3>David Akbar</h3>
+                                    <small>Pinggir Tebing, 15 menit yang lalu</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="uil uil-ellipsis-h"></i>
+                            </span>
+                        </div>
+
+                        <div class="photo">
+                            <img src="./images/feed-1.jpg">
+                        </div>
+
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="uil uil-heart"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark-full"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span><img src="./images/profile-5.jpg"></span>
+                            <span><img src="./images/profile-2.jpg"></span>
+                            <span><img src="./images/profile-3.jpg"></span>
+                            <p>Disukai oleh <b>Adbul Mun'im</b> dan <b>2,443 lainnya</b></p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b>David Akbar</b> SIAPA KITAAA??!!! <span class="harsh-tag">#siapa?</span></p>
+                        </div>
+                        <div class="comments text-muted">Lihat semua 197 komentar</div>
+                    </div>
+                    <!------------------- FEED 2 --------------------->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="./images/profile-2.jpg">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Muhammad Kemal</h3>
+                                    <small>Jatiwaringin, 45 menit yang lalu</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="uil uil-ellipsis-h"></i>
+                            </span>
+                        </div>
+
+                        <div class="photo">
+                            <img src="./images/feed-2.jpg">
+                        </div>
+
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="uil uil-heart"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark-full"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span><img src="./images/profile-3.jpg"></span>
+                            <span><img src="./images/profile-4.jpg"></span>
+                            <span><img src="./images/profile-5.jpg"></span>
+                            <p>Disukai oleh <b>Noor Wahyu</b> dan <b>2,323 lainnya</b></p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b>Muhammad Kemal</b> night ride &#128526; <span class="harsh-tag">#malamminggu</span>
+                            </p>
+                        </div>
+                        <div class="comments text-muted">Lihat semua 3,473 komentar</div>
+                    </div>
+                    <!------------------- FEED 3 --------------------->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="./images/profile-3.jpg">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Abdul Mun'im</h3>
+                                    <small>Ciletuh, 1 jam yang lalu</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="uil uil-ellipsis-h"></i>
+                            </span>
+                        </div>
+
+                        <div class="photo">
+                            <img src="./images/feed-3.jpg">
+                        </div>
+
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="uil uil-heart"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark-full"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span><img src="./images/profile-5.jpg"></span>
+                            <span><img src="./images/profile-4.jpg"></span>
+                            <span><img src="./images/profile-2.jpg"></span>
+                            <p>Disukai oleh <b>David Akbar</b> dan <b>2,323 lainnya</b></p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b>Abdul Mun'im</b> p! balap touring? &#128526; <span class="harsh-tag">#lifestyle</span>
+                            </p>
+                        </div>
+                        <div class="comments text-muted">Lihat semua 500 komentar</div>
+                    </div>
+                    <!------------------- FEED 4 --------------------->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="./images/profile-5.jpg">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Noor Wahyu</h3>
+                                    <small>Bromo, 2 jam yang lalu</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="uil uil-ellipsis-h"></i>
+                            </span>
+                        </div>
+
+                        <div class="photo">
+                            <img src="./images/feed-4.jpg">
+                        </div>
+
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="uil uil-heart"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark-full"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span><img src="./images/profile-3.jpg"></span>
+                            <span><img src="./images/profile-4.jpg"></span>
+                            <span><img src="./images/profile-2.jpg"></span>
+                            <p>Disukai oleh <b>Muhammad Kemal</b> dan <b>2,696 lainnya</b></p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b>Noor Wahyu</b> Mau ke SMA lagi :( &#10084;&#10084;&#10084;&#10084;&#10084; <span
+                                    class="harsh-tag">#kgnmasaSMA</span></p>
+                        </div>
+                        <div class="comments text-muted">Lihat semua 969 komentar</div>
+                    </div>
+                    <!------------------- FEED 5 --------------------->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="./images/profile-2.jpg">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Muhammad Kemal</h3>
+                                    <small>2 jam yang lalu</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="uil uil-ellipsis-h"></i>
+                            </span>
+                        </div>
+
+                        <div class="cuitan">
+                            <br>
+                            <p>hari ini mau ngepost foto ahh, kira-kira foto apa yaa?? &#10084; </p>
+                        </div>
+
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="uil uil-heart"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark-full"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span><img src="./images/profile-4.jpg"></span>
+                            <span><img src="./images/profile-3.jpg"></span>
+                            <span><img src="./images/profile-5.jpg"></span>
+                            <p>Disukai oleh <b>David Akbar</b> dan <b>573 lainnya</b></p>
+                        </div>
+                        <div class="comments text-muted">Lihat semua 117 komentar</div>
+                    </div>
+                </div>
+                <!------------------------------- FEEDS ------------------------------------>
+            </div>
+            <!--======================== BAGIAN TENGAH ==========================-->
+
+            <!--======================== BAGIAN KANAN ==========================-->
+            <div class="right">
+                <div class="messages">
+                    <div class="heading">
+                        <h4>Pesan</h4><i class="uil uil-edit"></i>
+                    </div>
+                    <!------------ SEARCH BAR -------------->
+                    <div class="search-bar">
+                        <i class="uil uil-search"></i>
+                        <input type="search" placeholder="Cari Pesan" id="message-search">
+                    </div>
+                    <!------------ MESSAGE -------------->
+                    <!----- MESSAGE 1 ----->
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="./images/profile-2.jpg">
+                        </div>
+                        <div class="message-body">
+                            <h5>Muhammad Kemal</h5>
+                            <p class="text-bold">balapan yuk ngab</p>
+                        </div>
+                    </div>
+                    <!----- MESSAGE 2 ----->
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="./images/profile-3.jpg">
+                            <div class="active"></div>
+                        </div>
+                        <div class="message-body">
+                            <h5>Abdul Mun'im</h5>
+                            <p class="text-bold">absen bang, jangan tidur mulu!</p>
+                        </div>
+                    </div>
+                    <!----- MESSAGE 3 ----->
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="./images/profile-4.jpg">
+                            <div class="active"></div>
+                        </div>
+                        <div class="message-body">
+                            <h5>David Akbar</h5>
+                            <p class="text-bold">GASS BULTANG!!</p>
+                        </div>
+                    </div>
+                    <!----- MESSAGE 4 ----->
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="./images/profile-5.jpg">
+                        </div>
+                        <div class="message-body">
+                            <h5>Noor Wahyu</h5>
+                            <p class="text-bold">bagi link in</p>
+                        </div>
+                    </div>
+                </div>
+                <!------------ MESSAGES -------------->
+
+                <!------------ PERMINTAAN PERTEMANAN -------------->
+                <div class="permintaan-teman">
+                    <h4>Permintaan Pertemanan</h4>
+                    <!----- REQUEST 1----->
+                    <div class="permintaan">
+                        <div class="info">
+                            <div class="profile-photo">
+                                <img src="./images/profile-6.jpg">
+                            </div>
+                            <div>
+                                <h5>Adinda Octaviani</h5>
+                                <p class="text-muted">Diikuti oleh 5 orang yang sama</p>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">Terima</button>
+                            <button class="btn">Tolak</button>
+                        </div>
+                    </div>
+                    <!----- REQUEST 2----->
+                    <div class="permintaan">
+                        <div class="info">
+                            <div class="profile-photo">
+                                <img src="./images/profile-7.jpg">
+                            </div>
+                            <div>
+                                <h5>Muhammad Rafli Akbar</h5>
+                                <p class="text-muted">Diikuti oleh 2 orang yang sama</p>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">Terima</button>
+                            <button class="btn">Tolak</button>
+                        </div>
+                    </div>
+                    <!----- REQUEST 3----->
+                    <div class="permintaan">
+                        <div class="info">
+                            <div class="profile-photo">
+                                <img src="./images/profile-8.jpg">
+                            </div>
+                            <div>
+                                <h5>Adip Idi Surya</h5>
+                                <p class="text-muted">Diikuti oleh 19 orang yang sama</p>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">Terima</button>
+                            <button class="btn">Tolak</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--====================== BAGIAN KANAN ==========================-->
+        </div>
+    </main>
+</body>
+
+</html>

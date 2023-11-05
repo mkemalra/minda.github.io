@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MINDA</title>
+
+    <link rel="icon" href="images/minda.png">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <div class="logo">
+                <img src="images/minda.png">
+            </div>
+            <h2>MINDA</h2>
+            <div class="search-bar">
+                <i class="uil uil-search"></i>
+                <input type="search" placeholder="Pencarian untuk trending, inspirasi, dan proyek">
+            </div>
+            <div class="create">
+                <label class="btn btn-primary" for="create-post">Buat</label>
+                <div class="profile-photo">
+                    <img src="images/profile-1.jpeg">
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!------------------------- MAIN -------------------------->
+    <main>
+        <div class="container">
+            <!--======================== BAGIAN KIRI ==========================-->
+            <div class="left">
+                <a class="profile">
+                    <div class="profile-photo">
+                        <img src="images/profile-1.jpeg">
+                    </div>
+                    <div class="handle">
+                        <h4>Istnain Faiz Alfajri</h4>
+                        <p class="text-muted">
+                            @IFA02
+                        </p>
+                    </div>
+                </a>
+
+                <!-------------------- SIDEBAR ------------------------->
+                <div class="sidebar">
+                    <a href="beranda.html" class="menu-item active">
+                        <span><i class="uil uil-home"></i></span>
+                        <h3>Beranda</h3>
+                    </a>
+                    <a href="jelajah.html" class="menu-item">
+                        <span><i class="uil uil-compass"></i></span>
+                        <h3>Jelajah</h3>
+                    </a>
+                    <a href="pemberitahuan.html" class="menu-item" id="notifications">
+                        <span><i class="uil uil-bell"><small class="notification-count">100+</small></i></span>
+                        <h3>Pemberitahuan</h3>
+                    </a>
+                    <a href="pesan.html" class="menu-item" id="messages-notification">
+                        <span><i class="uil uil-envelope-alt"><small class="notification-count">4</small></i></span>
+                        <h3>Pesan</h3>
+                    </a>
+                    <a href="pengaturan.html" class="menu-item">
+                        <span><i class="uil uil-setting"></i></span>
+                        <h3>Pengaturan</h3>
+                    </a>
+                </div>
+            </div>
+            <!------------------- BAGIAN KIRI -------------------->
+
+
+
+            <!--======================== BAGIAN TENGAH ==========================-->
+            <div class="middle">
+
+                <!------------------- ADD POSTING -------------------->
+                <form class="add-posting">
+                    <div class="profile-photo">
+                        <img src="./images/profile-1.jpeg">
+                    </div>
+                    <input type="text" placeholder="Bagaimana harimu, Istnain?" id="add-posting">
+                    <input type="submit" value="Kirim" class="btn btn-primary">
+                </form>
+
+                <!------------------- FEEDS --------------------->
+                <div class="feeds">
+                    <!------------------- FEED 1 --------------------->
+                    <!------------------- FEED 2 --------------------->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="./images/profile-2.jpg">
+                                </div>
+                                <div class="cuitan">
+                                    <b>Muhammad Kemal </b> Memberi anda pesan
+                                    <small class="text-muted">2 menit yang lalu</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!------------------- FEED 2 --------------------->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="./images/profile-3.jpg">
+                                </div>
+                                <div class="cuitan">
+                                    <b>Abdul Mun'in</b> Memberi anda pesan
+                                    <small class="text-muted">1 jam yang lalu</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!------------------- FEED 2 --------------------->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="./images/profile-4.jpg">
+                                </div>
+                                <div class="cuitan">
+                                    <b>David Akbar</b> dan <b>283 lainnya </b> menyukai postingan anda
+                                    <small class="text-muted">4 menit yang lalu</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!------------------- FEED 2 --------------------->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="./images/profile-5.jpg">
+                                </div>
+                                <div class="cuitan">
+                                    <b>Noor Wahyu</b> Memberi komentar di postingan anda
+                                    <small class="text-muted">2 jam yang lalu</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!------------------- FEED 2 --------------------->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="./images/profile-6.jpg">
+                                </div>
+                                <div class="cuitan">
+                                    <b>Adinda Octaviani</b> Mulai mengikuti anda
+                                    <small class="text-muted">1 jam yang lalu</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!------------------- FEED 2 --------------------->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="./images/profile-7.jpg">
+                                </div>
+                                <div class="cuitan">
+                                    <b>Rafli akbar </b> Mulai mengikuti anda
+                                    <small class="text-muted">2 jam yang lalu</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--======================== BAGIAN TENGAH ==========================-->
+
+
+            <!--======================== BAGIAN KANAN ==========================-->
+            <div class="right">
+                <div class="messages">
+                    <div class="heading">
+                        <h4>Pesan</h4><i class="uil uil-edit"></i>
+                    </div>
+                    <!------------ SEARCH BAR -------------->
+                    <div class="search-bar">
+                        <i class="uil uil-search"></i>
+                        <input type="search" placeholder="Cari Pesan" id="message-search">
+                    </div>
+                    <!------------ MESSAGE -------------->
+                    <!----- MESSAGE 1 ----->
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="./images/profile-2.jpg">
+                        </div>
+                        <div class="message-body">
+                            <h5>Muhammad Kemal</h5>
+                            <p class="text-bold">balapan yuk ngab</p>
+                        </div>
+                    </div>
+                    <!----- MESSAGE 2----->
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="./images/profile-3.jpg">
+                            <div class="active"></div>
+                        </div>
+                        <div class="message-body">
+                            <h5>Abdul Mun'im</h5>
+                            <p class="text-bold">absen bang, jangan tidur mulu!</p>
+                        </div>
+                    </div>
+                    <!----- MESSAGE 3 ----->
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="./images/profile-4.jpg">
+                            <div class="active"></div>
+                        </div>
+                        <div class="message-body">
+                            <h5>David Akbar</h5>
+                            <p class="text-bold">GASS BULTANG!!</p>
+                        </div>
+                    </div>
+                    <!----- MESSAGE 4 ----->
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="./images/profile-5.jpg">
+                        </div>
+                        <div class="message-body">
+                            <h5>Noor Wahyu</h5>
+                            <p class="text-bold">bagi link in</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!------------ PERMINTAAN PERTEMANAN -------------->
+                <div class="permintaan-teman">
+                    <h4>Permintaan Pertemanan</h4>
+                    <!----- REQUEST 1----->
+                    <div class="permintaan">
+                        <div class="info">
+                            <div class="profile-photo">
+                                <img src="./images/profile-6.jpg">
+                            </div>
+                            <div>
+                                <h5>Adinda Octaviani</h5>
+                                <p class="text-muted">Diikuti oleh 5 orang yang sama</p>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">Terima</button>
+                            <button class="btn">Tolak</button>
+                        </div>
+                    </div>
+                    <!----- REQUEST 2----->
+                    <div class="permintaan">
+                        <div class="info">
+                            <div class="profile-photo">
+                                <img src="./images/profile-7.jpg">
+                            </div>
+                            <div>
+                                <h5>Muhammad Rafli Akbar</h5>
+                                <p class="text-muted">Diikuti oleh 2 orang yang sama</p>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">Terima</button>
+                            <button class="btn">Tolak</button>
+                        </div>
+                    </div>
+                    <!----- REQUEST 3----->
+                    <div class="permintaan">
+                        <div class="info">
+                            <div class="profile-photo">
+                                <img src="./images/profile-8.jpg">
+                            </div>
+                            <div>
+                                <h5>Adip Idi Surya</h5>
+                                <p class="text-muted">Diikuti oleh 19 orang yang sama</p>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">Terima</button>
+                            <button class="btn">Tolak</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--====================== BAGIAN KANAN ==========================-->
+        </div>
+    </main>
+</body>
+
+</html>
